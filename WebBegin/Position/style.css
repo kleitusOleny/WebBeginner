@@ -1,0 +1,15 @@
+#box{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    /* position: relative;relative = position relative to where it normally */
+    /* position: fixed; fixed = relative to view point */
+    position: sticky;
+    top: 0px;
+}
+#box2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(127, 133, 255);
+    position: absolute; /* di chuyen theo cai chua no*/
+}

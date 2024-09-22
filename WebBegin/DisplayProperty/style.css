@@ -1,0 +1,17 @@
+div{ /* scale theo quy dinh*/
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    /* display: block; //scale theo khoi */
+    /* display: inline; // tren dong */
+    display: inline-block;
+    visibility: hidden; /* an nhung chua khoang trong*/
+}
+span{/* scale theo van ban, thanh phan trong khoi*/
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    /* display: block; //scale theo khoi */
+    /* display: inline; */
+    display: inline-block;
+}

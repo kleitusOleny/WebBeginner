@@ -1,0 +1,33 @@
+a:link{
+    color: rgb(54, 227, 227);
+}
+a:hover{
+    color: brown;
+    font-size: 100px;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: chartreuse;
+}
+li:hover{
+    /* thay doi khi duoc chon */
+    background-color: aquamarine;
+}
+li:not(:hover){
+    /* thay doi khi chua duoc chon */
+    background-color: rgb(0, 115, 86);
+}
+li:nth-child(2n+1){
+    background-color: chartreuse;
+    /* thay doi con tai i */
+}
+#greeting p{
+    background-color: burlywood;
+    padding: 10px;
+    display:  none;
+}
+#greeting:hover p{
+    display: block;
+}

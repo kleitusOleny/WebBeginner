@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.box1{
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-width: 25%;
+    background-color: blueviolet;
+
+}
+.box2{
+    border: 2px solid;
+    height: 100px;
+}
+.container{
+    background-color: aquamarine;
+    height: 600px;
+}

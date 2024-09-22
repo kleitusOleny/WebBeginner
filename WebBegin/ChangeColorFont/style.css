@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aqua;
+}
+#p1{
+    font-family: "lucida console", 'Courier New';
+    font-size: 16px;
+    font-weight: normal;
+    color: aquamarine;
+}
+#p2{
+    color: aquamarine;
+}
+#p3{
+    color: aquamarine;
+}
+#p4{
+    color: aquamarine;
+}
