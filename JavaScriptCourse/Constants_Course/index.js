@@ -4,12 +4,20 @@ const pi =3.15;
 let radius;
 let circumference;
 
-radius = window.prompt('Enter the radius of a circle');
-radius = Number(radius);
+document.getElementById("myBtn").onclick = function() {
+    radius = document.getElementById("myRadius").Value;
+    radius = Number(radius);
+    circumference = 2*pi * radius;
+    document.getElementById("myH3").textContent = `circumference: ${circumference}`;
 
-circumference = 2*pi * radius;
+}
 
-console.log(circumference);
+
+
+
+
+
+
 
 
 
