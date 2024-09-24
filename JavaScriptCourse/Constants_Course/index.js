@@ -1,16 +1,15 @@
-console.log(`Hello`);
-console.log(`i like pizza`);
+// const x = a; is can't be change
 
-// window.alert(`this is an alert`)
-// window.alert(`this is an alert`)
+const pi =3.15;
+let radius;
+let circumference;
 
-//This is a comment
+radius = window.prompt('Enter the radius of a circle');
+radius = Number(radius);
 
-document.getElementById("myH1").textContent = 'Hello';
-document.getElementById("myP").textContent = 'lorem'
+circumference = 2*pi * radius;
 
-
-
+console.log(circumference);
 
 
 
