@@ -1,0 +1,19 @@
+#count{
+    font-size: 10em;
+    text-align: center;
+}
+#pattern{
+    text-align: center;
+}
+.Btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: rgb(127, 157, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+.Btn:hover{
+    background-color: aqua;
+}
